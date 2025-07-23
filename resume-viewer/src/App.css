@@ -1,0 +1,182 @@
+
+.resume-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px 40px 24px;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  color: #222;
+  border: 1px solid #e0e0e0;
+}
+
+.resume-header {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 18px;
+  margin-bottom: 32px;
+  text-align: center;
+  background: #f0f4f8;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.resume-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.resume-header h2 {
+  margin: 8px 0 0 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1976d2;
+}
+
+.resume-header p {
+  margin: 4px 0;
+  font-size: 1rem;
+}
+
+.resume-header .summary {
+  margin-top: 16px;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.section {
+  margin-bottom: 32px;
+  background: #f8fafc;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  padding: 24px 20px 18px 20px;
+}
+
+.resume-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px 40px 24px;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  color: #222;
+
+.resume-header {
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 16px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.resume-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.resume-header h2 {
+  margin: 8px 0 0 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1976d2;
+}
+
+.resume-header p {
+  margin: 4px 0;
+  font-size: 1rem;
+}
+
+.resume-header .summary {
+  margin-top: 16px;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+
+
+.section ul {
+  padding-left: 20px;
+  margin: 0;
+  list-style: disc inside;
+}
+
+.section li {
+  margin-bottom: 7px;
+  line-height: 1.7;
+  font-weight: 400;
+  color: #222;
+  background: none;
+}
+
+.job {
+  margin-bottom: 24px;
+}
+
+}
+  
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1976d2;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 4px;
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+  background: none;
+}
+
+
+.job h3 {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+
+.job h3 span {
+  font-weight: 400;
+  color: #888;
+  font-size: 0.95em;
+  margin-left: 8px;
+}
+
+
+.core-competencies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  padding: 0;
+}
+
+.competency-btn {
+  background: #e3eaf3;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 18px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1976d2;
+  margin-bottom: 6px;
+  margin-right: 6px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px rgba(25, 118, 210, 0.08);
+}
+.competency-btn:hover, .competency-btn:focus {
+  background: #1976d2;
+  color: #fff;
+  outline: none;
+}
+
+
+.education {
+  font-size: 1.1rem;
+  color: #333;
+}
