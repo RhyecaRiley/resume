@@ -1,13 +1,12 @@
-# resume
-
 Rhyeca (Reece) Riley
 New River, Az | 602-803-1002 | rjriley08.rr@gmail.com
+
 
 Software Engineer
 -	Developer with 5+ years of hands-on experience across backend development and DevOps, specializing in Kotlin, GitHub Actions, and cloud-native engineering with Azure and Kubernetes. Known for leading efforts to reduce application risk through secure coding, optimized containerization, and infrastructure automation. Strong communicator with a passion for clean, testable code and cross-functional collaboration.
 
 Technical Skills
--	Languages & Frameworks: Kotlin, Go, Java, C#, .NET, Python, JavaScript, TypeScript, React, Next.js, Spring Boot, 
+-	Languages & Frameworks: Kotlin, Java, C#, .NET, Python, JavaScript, TypeScript, React, Nextjs, Spring Boot
 -	DevOps & CI/CD: GitHub Actions, Azure DevOps, Kubernetes, Docker, Terraform, Octo-STS
 -	Tools & Platforms: Azure Portal, Akamai GTM, Akamai, IntelliJ, VS Code, GitHub Desktop, GitKraken
 -	Databases: SQL
@@ -22,10 +21,11 @@ Developer
 -	Convert applications from Azure to Kubernetes
 -	Refactor and update GitHub workflows to leverage a single reusable workflow, promoting standardization and reducing redundancy across various application pipelines
 -	Create repo templates for app teams to make connecting to Kubernetes efficient with new applications
--	Begin work on new customer-facing features using Next.js
+-	Begin work on new customer-facing features using Nextjs
 -	Remove hardcoded secrets from GitHub Actions workflows by integrating Octo-STS, improving security and compliance in CI/CD pipelines
 -	Implement automation to automatically merge Dependabot pull requests following successful completion of a defined test suite, ensuring that dependencies remain up to date with minimal manual intervention
--	Develop Dockerfiles for Key Environments such as Java Development Kit (JDK), Node.js, and NGINX 
+-	Develop Dockerfiles for Key Environments such as Java Development Kit (JDK), Node, and NGINX 
+-	Mentoring and guiding junior engineers to help them grow both technically and professionally by providing constructive feedback, regularly checking in, and setting clear expectations
 
 Ntelicor (Feb 2021- Aug 2021)
 Junior Software Engineer
