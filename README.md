@@ -1,3 +1,8 @@
+# This entire app has been developed by Github Copilot
+
+This was done to get familiar with Copilot and understand its different limitations
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
