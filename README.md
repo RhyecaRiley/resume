@@ -1,51 +1,70 @@
-Rhyeca (Reece) Riley
-New River, Az | 602-803-1002 | rjriley08.rr@gmail.com
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Software Engineer
--	Developer with 5+ years of hands-on experience across backend development and DevOps, specializing in Kotlin, GitHub Actions, and cloud-native engineering with Azure and Kubernetes. Known for leading efforts to reduce application risk through secure coding, optimized containerization, and infrastructure automation. Strong communicator with a passion for clean, testable code and cross-functional collaboration.
+## Available Scripts
 
-Technical Skills
--	Languages & Frameworks: Kotlin, Java, C#, .NET, Python, JavaScript, TypeScript, React, Nextjs, Spring Boot
--	DevOps & CI/CD: GitHub Actions, Azure DevOps, Kubernetes, Docker, Terraform, Octo-STS
--	Tools & Platforms: Azure Portal, Akamai GTM, Akamai, IntelliJ, VS Code, GitHub Desktop, GitKraken
--	Databases: SQL
--	Practices: Test Driven Development (TDD), Clean Code, Agile/Scrum
--	Other: YAML, REST APIs, SOAP APIs
+In the project directory, you can run:
 
-American Airlines (Aug 2021-Current)
-Developer
--	Develop and configure a dedicated "Beta" environment to facilitate targeted testing of new feature updates before deployment to production, ensuring smooth integration and early feedback from selected users
--	Create a Priority List Application for boarding non-revenue customers
--	Create Azure Resource groups for the Beta environment with Terraform Scripts
--	Convert applications from Azure to Kubernetes
--	Refactor and update GitHub workflows to leverage a single reusable workflow, promoting standardization and reducing redundancy across various application pipelines
--	Create repo templates for app teams to make connecting to Kubernetes efficient with new applications
--	Begin work on new customer-facing features using Nextjs
--	Remove hardcoded secrets from GitHub Actions workflows by integrating Octo-STS, improving security and compliance in CI/CD pipelines
--	Implement automation to automatically merge Dependabot pull requests following successful completion of a defined test suite, ensuring that dependencies remain up to date with minimal manual intervention
--	Develop Dockerfiles for Key Environments such as Java Development Kit (JDK), Node, and NGINX 
--	Mentoring and guiding junior engineers to help them grow both technically and professionally by providing constructive feedback, regularly checking in, and setting clear expectations
+### `npm start`
 
-Ntelicor (Feb 2021- Aug 2021)
-Junior Software Engineer
--	6-month contract to hire for American Airlines
--	Work with application teams to solve bugs
--	Familiarity with Azure DevOps (in an agile environment)
--	Implement 80% test coverage by creating unit test/integration test
--	Convert building and deploying applications from ADO to GitHub Actions
--	Automate deployment messages by creating a Github Action python script
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Elevate Tickets LLC (Jul 2019-Jul 2020)
-Junior Software Engineer   
--	Contributed to full-stack development of a mobile ticketing platform in an Agile team.
--	Collaborated directly with the Product and Customer Service teams to improve features based on real-world feedback.
--	Refactored and modernized legacy code using Test Driven Development and clean architecture practices.
--	Created and maintained REST APIs in ColdFusion and handled data operations through SQL.
--	Focused on writing modular, maintainable code with high cohesion and low coupling.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-CORE COMPETENCIES 
--	Customer Focus • Agile Collaboration • Test Driven Development • Debugging & Troubleshooting • Time Management • Code Quality & Clean Architecture • Adaptability • DevOps Mindset
-Education
--	Bachelor of Engineering in Computer Science
-Arizona State University — June 2020
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
