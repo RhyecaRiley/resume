@@ -1,4 +1,4 @@
-# This entire app has been developed by Github Copilot
+#### This entire app has been developed by Github Copilot
 
 This was done to get familiar with Copilot and understand its different limitations
 
