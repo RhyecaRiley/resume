@@ -45,9 +45,16 @@ function App() {
       </Section>
 
       <Section title="Experience">
-        <ul>
-          {resume.experience.map((item, i) => <li key={i}>{item}</li>)}
-        </ul>
+        {resume.experience.map((job, i) => (
+          <div className="job" key={i}>
+            <div className="job-title">{job.title}</div>
+            {job.bullets.length > 0 && (
+              <ul>
+                {job.bullets.map((b, j) => <li key={j}>{b}</li>)}
+              </ul>
+            )}
+          </div>
+        ))}
       </Section>
 
       <Section title="Core Competencies">

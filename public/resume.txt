@@ -14,8 +14,8 @@ Technical Skills
 -	Other: YAML, REST APIs, SOAP APIs
 
 Experience
--   American Airlines (Aug 2021-Current)
-    Developer
+American Airlines (Aug 2021-Current)
+Developer
     -	Develop and configure a dedicated "Beta" environment to facilitate targeted testing of new feature updates before deployment to production, ensuring smooth integration and early feedback from selected users
     -	Create a Priority List Application for boarding non-revenue customers
     -	Create Azure Resource groups for the Beta environment with Terraform Scripts
@@ -27,8 +27,8 @@ Experience
     -	Implement automation to automatically merge Dependabot pull requests following successful completion of a defined test suite, ensuring that dependencies remain up to date with minimal manual intervention
     -	Develop Dockerfiles for Key Environments such as Java Development Kit (JDK), Node.js, and NGINX 
 
--   Ntelicor (Feb 2021- Aug 2021)
-    Junior Software Engineer
+Ntelicor (Feb 2021- Aug 2021)
+Junior Software Engineer
     -	6-month contract to hire for American Airlines
     -	Work with application teams to solve bugs
     -	Familiarity with Azure DevOps (in an agile environment)
@@ -36,8 +36,8 @@ Experience
     -	Convert building and deploying applications from ADO to GitHub Actions
     -	Automate deployment messages by creating a Github Action python script
 
--   Elevate Tickets LLC (Jul 2019-Jul 2020)
-    Junior Software Engineer   
+Elevate Tickets LLC (Jul 2019-Jul 2020)
+Junior Software Engineer   
     -	Contributed to full-stack development of a mobile ticketing platform in an Agile team.
     -	Collaborated directly with the Product and Customer Service teams to improve features based on real-world feedback.
     -	Refactored and modernized legacy code using Test Driven Development and clean architecture practices.

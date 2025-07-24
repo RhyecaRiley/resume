@@ -61,18 +61,49 @@ export function parseResume(text) {
     }
   }
 
-  // Experience: Every non-blank, non-section-header line between 'Experience' and next section is a string (like technicalSkills)
+  // Experience: Robustly group company and role as job title, handle blank lines/indentation
   resume.experience = [];
   if (sectionIndices.experience !== undefined) {
     const end = sectionIndices.coreCompetencies ?? sectionIndices.education ?? lines.length;
+    let currentJob = null;
+    let titleLines = [];
+    let inTitle = false;
     for (let j = sectionIndices.experience + 1; j < end; j++) {
-      const line = lines[j].trim();
-      if (!line) continue;
+      const rawLine = lines[j];
+      const line = rawLine.trim();
       // Skip section headers
       if (line.toLowerCase().includes('core competencies') || line.toLowerCase().includes('education')) continue;
-      // Remove leading dash and whitespace if present
-      resume.experience.push(line.replace(/^-[ \t]*/, ''));
+      if (!line) {
+        // Blank line: if we were collecting a title, finalize it
+        if (titleLines.length > 0) {
+          currentJob = { title: titleLines.join(' — '), bullets: [] };
+          titleLines = [];
+          inTitle = false;
+        }
+        continue;
+      }
+      if (!line.startsWith('-')) {
+        // Non-bullet: collect as part of job title
+        if (currentJob) {
+          resume.experience.push(currentJob);
+          currentJob = null;
+        }
+        titleLines.push(line);
+        inTitle = true;
+        // If next line is a bullet or end, finalize the job title
+        const nextLine = lines[j+1]?.trim();
+        if (!nextLine || nextLine.startsWith('-')) {
+          currentJob = { title: titleLines.join(' — '), bullets: [] };
+          titleLines = [];
+          inTitle = false;
+        }
+      } else if (currentJob) {
+        // Bullet point for current job
+        currentJob.bullets.push(line.replace(/^-[ \t]*/, ''));
+      }
     }
+    // If we have a job in progress, push it
+    if (currentJob) resume.experience.push(currentJob);
   }
 
   // Core Competencies
